@@ -5,6 +5,7 @@ from pycounts.pycounts import count_words
 
 
 def test_version():
+    """Test package version"""
     assert __version__ == "0.1.0"
 
 
